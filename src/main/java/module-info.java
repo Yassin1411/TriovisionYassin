@@ -13,4 +13,6 @@ module com.example.triovisionyassin {
 
   opens com.example.triovisionyassin to javafx.fxml;
   exports com.example.triovisionyassin;
+    exports com.example.triovisionyassin.Jeu;
+    opens com.example.triovisionyassin.Jeu to javafx.fxml;
 }
